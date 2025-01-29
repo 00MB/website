@@ -7,17 +7,17 @@ export default function Hero() {
     <section className="space-y-6">
       <H1>{SITE_CONFIG.name}</H1>
       <Paragraph>
-        Currently building viral mobile apps at{" "}
-        <Link
-          href={SITE_CONFIG.links.crackeddevs}
-          className="underline underline-offset-2 hover:underline-offset-4 transition-all"
-        >
-          crackeddevs.com
-        </Link>
+      Trying to change the world. 
       </Paragraph>
       <Paragraph>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
+        Currently building viral mobile apps at{" "}
+        <Link
+          target="_blank"
+          href={SITE_CONFIG.links.magicapps}
+          className="underline underline-offset-2 hover:underline-offset-4 transition-all"
+        >
+          MagicApps
+        </Link>
       </Paragraph>
     </section>
   );

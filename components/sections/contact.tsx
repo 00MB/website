@@ -17,6 +17,7 @@ export default function HeaderContact() {
           <motion.a
             key={link.name}
             href={link.href}
+            target="_blank"
             className="group flex items-center text-sm text-neutral-600 hover:text-neutral-900 transition-colors duration-200"
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}

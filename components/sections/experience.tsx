@@ -31,10 +31,10 @@ const renderEventWithLinks = (text: string): (string | JSX.Element)[] => {
 
     parts.push(
       <Link
+        target="_blank"
         key={match.index}
         href={match[2]}
         className="underline underline-offset-2 hover:underline-offset-4 transition-all"
-        target="_blank"
         rel="noopener noreferrer"
       >
         {match[1]}
@@ -130,7 +130,7 @@ export default function Timeline(): JSX.Element {
     <section className="max-w-2xl mx-auto">
       <div className="space-y-8">
         <div>
-          <H2>Things I&apos;ve done</H2>
+          <H2>Journey</H2>
           <div className="relative mt-6">
             <div>
               {sortedTimeline.map((period, index) => (
