@@ -4,7 +4,6 @@ interface SiteConfig {
   description: string;
   links: {
     crackeddevs: string;
-    magicapps: string;
     helio: string;
     helioAquired: string;
   };
@@ -15,7 +14,6 @@ export const SITE_CONFIG: SiteConfig = {
   description: "Building viral mobile apps",
   links: {
     crackeddevs: "https://crackeddevs.com",
-    magicapps: "https://trymagicapps.com",
     helio: "https://hel.io",
     helioAquired: "https://www.foxbusiness.com/markets/moonpay-acquires-helio-175m-expand-crypto-payments-infrastructure",
   },
@@ -25,8 +23,7 @@ export const TIMELINE = [
   {
     age: "Now",
     events: [
-      `Building viral mobile apps at [MagicApps](${SITE_CONFIG.links.magicapps})`,
-      `Building [CrackedDevs](${SITE_CONFIG.links.crackeddevs}), a team of elite crypto builders`,
+      `Building [CrackedDevs](${SITE_CONFIG.links.crackeddevs}), a team of elite devs building massive internet products`,
     ],
   },
   {

@@ -7,16 +7,16 @@ export default function Hero() {
     <section className="space-y-6">
       <H1>{SITE_CONFIG.name}</H1>
       <Paragraph>
-      Trying to change the world. 
+      Changing the world. 
       </Paragraph>
       <Paragraph>
-        Currently building viral mobile apps at{" "}
+        Currently building large scale consumer products with{" "}
         <Link
           target="_blank"
-          href={SITE_CONFIG.links.magicapps}
+          href={SITE_CONFIG.links.crackeddevs}
           className="underline underline-offset-2 hover:underline-offset-4 transition-all"
         >
-          MagicApps
+          CrackedDevs
         </Link>
       </Paragraph>
     </section>
