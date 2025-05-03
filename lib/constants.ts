@@ -23,7 +23,7 @@ export const TIMELINE = [
   {
     age: "Now",
     events: [
-      `Building [CrackedDevs](${SITE_CONFIG.links.crackeddevs}), a team of elite devs building massive internet products`,
+      `Currently building usable AI agents at [CrackedDevs](${SITE_CONFIG.links.crackeddevs})`,
     ],
   },
   {
@@ -40,7 +40,7 @@ export const TIMELINE = [
   },
   {
     age: "17",
-    events: ["Went to university, skipped class, won hackathons to pay my rent"],
+    events: ["Went to university, skipped class, won hackathons to pay for it"],
   },
   {
     age: "15",
@@ -49,8 +49,8 @@ export const TIMELINE = [
 ];
 
 export const FUTURE_GOALS = [
-  "Build rockets?",
-  "Improve human lifespan to 500?",
-  "Reverse climate change?",
-  "Solve world hunger?",
+  "Build robots to free us from boring work",
+  "Increase human lifespan to 500",
+  "Reverse climate change",
+  "Solve world hunger",
 ];
