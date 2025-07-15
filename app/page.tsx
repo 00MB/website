@@ -11,7 +11,6 @@ export default function Home() {
         <Hero />
         <Contact />
         <Experience />
-        {/* <MusicPlayer /> */}
       </ViewContainer>
     </main>
   );

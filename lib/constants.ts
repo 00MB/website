@@ -7,6 +7,7 @@ interface SiteConfig {
     cryptogym: string;
     helio: string;
     helioAquired: string;
+    zfellows: string;
   };
 }
 
@@ -17,7 +18,9 @@ export const SITE_CONFIG: SiteConfig = {
     crackeddevs: "https://crackeddevs.com",
     cryptogym: "https://try.cryptogym.lol",
     helio: "https://hel.io",
-    helioAquired: "https://www.foxbusiness.com/markets/moonpay-acquires-helio-175m-expand-crypto-payments-infrastructure",
+    helioAquired:
+      "https://www.foxbusiness.com/markets/moonpay-acquires-helio-175m-expand-crypto-payments-infrastructure",
+    zfellows: "https://zfellows.com",
   },
 };
 
@@ -33,6 +36,7 @@ export const TIMELINE = [
     age: "22",
     events: [
       `[Helio acquired for $175m](${SITE_CONFIG.links.helioAquired})`,
+      `[Also ZFellows](${SITE_CONFIG.links.zfellows})`,
     ],
   },
   {
