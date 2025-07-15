@@ -29,7 +29,7 @@ export const TIMELINE = [
     age: "Now",
     events: [
       `Building [CryptoGym](${SITE_CONFIG.links.cryptogym}), a crypto trading simulator`,
-      `Operating [CrackedDevs](${SITE_CONFIG.links.crackeddevs}), a leading crypto product studio (for hire)`,
+      `Operating [CrackedDevs](${SITE_CONFIG.links.crackeddevs}), the most elite dev studio in crypto`,
     ],
   },
   {
