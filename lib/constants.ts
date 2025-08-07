@@ -4,8 +4,7 @@ interface SiteConfig {
   description: string;
   links: {
     crackeddevs: string;
-    cryptogym: string;
-    helio: string;
+    helio: string;  
     helioAquired: string;
     zfellows: string;
   };
@@ -15,8 +14,7 @@ export const SITE_CONFIG: SiteConfig = {
   name: "Michael Beer",
   description: "Building viral mobile apps",
   links: {
-    crackeddevs: "https://crackeddevs.com",
-    cryptogym: "https://try.cryptogym.lol",
+    crackeddevs: "https://x.com/crackeddevs",
     helio: "https://hel.io",
     helioAquired:
       "https://www.foxbusiness.com/markets/moonpay-acquires-helio-175m-expand-crypto-payments-infrastructure",
@@ -28,8 +26,7 @@ export const TIMELINE = [
   {
     age: "Now",
     events: [
-      `Building [CryptoGym](${SITE_CONFIG.links.cryptogym}), a crypto trading simulator`,
-      `Operating [CrackedDevs](${SITE_CONFIG.links.crackeddevs}), the most elite dev studio in crypto`,
+      `Building [CrackedDevs](${SITE_CONFIG.links.crackeddevs}), the most elite team of devs`,
     ],
   },
   {
