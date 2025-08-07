@@ -26,7 +26,7 @@ export const TIMELINE = [
   {
     age: "Now",
     events: [
-      `Building [CrackedDevs](${SITE_CONFIG.links.crackeddevs}), the most elite team of devs`,
+      `Building [CrackedDevs](${SITE_CONFIG.links.crackeddevs}), the most elite team of devs on the internet`,
     ],
   },
   {
