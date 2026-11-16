@@ -30,7 +30,7 @@ export const TIMELINE = [
   {
     age: "23",
     events: [
-      `[CrackedDevs](${SITE_CONFIG.links.crackeddevs}) acquired by Whop`,
+      `Founded [CrackedDevs](${SITE_CONFIG.links.crackeddevs}), the best crypto engineering agency. Acquired by [Whop](https://x.com/michaelbeer01/status/2056810568166838772)`,
     ],
   },
   {
