@@ -25,8 +25,12 @@ export const SITE_CONFIG: SiteConfig = {
 export const TIMELINE = [
   {
     age: "Now",
+    events: ["I lead money at Whop"],
+  },
+  {
+    age: "23",
     events: [
-      `Building [CrackedDevs](${SITE_CONFIG.links.crackeddevs}), the most elite team of devs on the internet`,
+      `[CrackedDevs](${SITE_CONFIG.links.crackeddevs}) acquired by Whop`,
     ],
   },
   {
