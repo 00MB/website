@@ -60,6 +60,7 @@ export const PROJECTS: { name: string; href?: string; description?: string }[] =
   {
     name: "House of Tea",
     href: "https://x.com/michaelbeer01/status/2122213465691767035",
+    description: "An online shop curating distinctive teas from India’s villages and gardens.",
   },
 ];
 
