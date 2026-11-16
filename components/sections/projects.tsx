@@ -5,8 +5,7 @@ import { IconArrowUpRight } from "@tabler/icons-react";
 export default function Projects() {
   return (
     <section id="projects" aria-label="Projects" className="scroll-mt-8">
-      <H1 className="mb-2">Businesses</H1>
-      <Paragraph className="mb-6">Placeholder projects for now.</Paragraph>
+      <H1 className="mb-6">Businesses</H1>
       <ul className="divide-y divide-neutral-200">
         {PROJECTS.map((project) => (
           <li key={project.name} className="py-4 first:pt-0 last:pb-0">
@@ -23,7 +22,9 @@ export default function Projects() {
             ) : (
               <h3 className="text-sm font-medium">{project.name}</h3>
             )}
-            <Paragraph className="mt-2">{project.description}</Paragraph>
+            {project.description && (
+              <Paragraph className="mt-2">{project.description}</Paragraph>
+            )}
           </li>
         ))}
       </ul>

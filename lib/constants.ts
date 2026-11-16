@@ -56,18 +56,10 @@ export const TIMELINE = [
   },
 ];
 
-export const PROJECTS: { name: string; href?: string; description: string }[] = [
+export const PROJECTS: { name: string; href?: string; description?: string }[] = [
   {
-    name: "Inbox Pilot",
-    description: "An AI customer support team for online businesses.",
-  },
-  {
-    name: "Clip Factory",
-    description: "An automated studio turning long videos into short-form content.",
-  },
-  {
-    name: "Storefront Studio",
-    description: "An AI operator that builds and runs niche online stores.",
+    name: "House of Tea",
+    href: "https://x.com/michaelbeer01/status/2122213465691767035",
   },
 ];
 
