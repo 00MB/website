@@ -25,7 +25,7 @@ export const SITE_CONFIG: SiteConfig = {
 export const TIMELINE = [
   {
     age: "Now",
-    events: ["Head of money at Whop"],
+    events: ["Head of money at Whop. [Building AI ran businesses](#projects)"],
   },
   {
     age: "23",
@@ -53,6 +53,21 @@ export const TIMELINE = [
   {
     age: "15",
     events: ["Built meme pages, dropshipping, saas products"],
+  },
+];
+
+export const PROJECTS: { name: string; href?: string; description: string }[] = [
+  {
+    name: "Inbox Pilot",
+    description: "An AI customer support team for online businesses.",
+  },
+  {
+    name: "Clip Factory",
+    description: "An automated studio turning long videos into short-form content.",
+  },
+  {
+    name: "Storefront Studio",
+    description: "An AI operator that builds and runs niche online stores.",
   },
 ];
 

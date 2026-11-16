@@ -31,11 +31,11 @@ const renderEventWithLinks = (text: string): (string | JSX.Element)[] => {
 
     parts.push(
       <Link
-        target="_blank"
+        target={match[2].startsWith("#") ? undefined : "_blank"}
         key={match.index}
         href={match[2]}
         className="underline underline-offset-2 hover:underline-offset-4 transition-all"
-        rel="noopener noreferrer"
+        rel={match[2].startsWith("#") ? undefined : "noopener noreferrer"}
       >
         {match[1]}
       </Link>

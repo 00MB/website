@@ -3,6 +3,7 @@ import { ViewContainer } from "@/components/layouts/view-containers";
 import Hero from "@/components/sections/hero";
 import Experience from "@/components/sections/experience";
 import Contact from "@/components/sections/contact";
+import Projects from "@/components/sections/projects";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <Hero />
         <Contact />
         <Experience />
+        <Projects />
       </ViewContainer>
     </main>
   );
