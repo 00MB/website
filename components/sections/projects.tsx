@@ -1,11 +1,11 @@
 import { PROJECTS } from "@/lib/constants";
-import { H2, Paragraph } from "@/components/ui/typography";
+import { H1, Paragraph } from "@/components/ui/typography";
 import { IconArrowUpRight } from "@tabler/icons-react";
 
 export default function Projects() {
   return (
     <section id="projects" aria-label="Projects" className="scroll-mt-8">
-      <H2 className="mb-2">Projects</H2>
+      <H1 className="mb-2">Businesses</H1>
       <Paragraph className="mb-6">Placeholder projects for now.</Paragraph>
       <ul className="divide-y divide-neutral-200">
         {PROJECTS.map((project) => (

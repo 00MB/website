@@ -25,7 +25,7 @@ export const SITE_CONFIG: SiteConfig = {
 export const TIMELINE = [
   {
     age: "Now",
-    events: ["Head of money at Whop. [Building AI ran businesses](#projects)"],
+    events: ["Head of money at Whop. [Building AI ran businesses](/businesses)"],
   },
   {
     age: "23",

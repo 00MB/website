@@ -29,13 +29,15 @@ const renderEventWithLinks = (text: string): (string | JSX.Element)[] => {
       parts.push(text.slice(lastIndex, match.index));
     }
 
+    const isExternal = /^https?:\/\//.test(match[2]);
+
     parts.push(
       <Link
-        target={match[2].startsWith("#") ? undefined : "_blank"}
+        target={isExternal ? "_blank" : undefined}
         key={match.index}
         href={match[2]}
         className="underline underline-offset-2 hover:underline-offset-4 transition-all"
-        rel={match[2].startsWith("#") ? undefined : "noopener noreferrer"}
+        rel={isExternal ? "noopener noreferrer" : undefined}
       >
         {match[1]}
       </Link>
